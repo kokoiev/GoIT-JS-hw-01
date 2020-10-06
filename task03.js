@@ -6,7 +6,7 @@ const ADMIN_PASSWORD = 12345;
 let userAnswer;
 userAnswer = +prompt("Enter password");
 
-if (userAnswer === +null) {
+if (userAnswer === 0) {
   alert("Отменено пользовтелем");
 } else if (userAnswer === ADMIN_PASSWORD) {
   alert("Добро пожаловать!");

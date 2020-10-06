@@ -8,7 +8,7 @@ userAnswer = +prompt(`Какое количество дронов вы хоти
 let totalPrice;
 totalPrice = userAnswer * PRICE_PER_DROID;
 
-if (totalPrice == +null) {
+if (totalPrice == 0) {
   alert("Отменено пользователем");
 } else if (totalPrice > credits) {
   alert("Недостаточно средств на счету!");
